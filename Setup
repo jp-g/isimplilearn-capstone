@@ -13,7 +13,16 @@ Setup:
 
 >> pip install ansible
 
-    Install boto3
+   
+
+Use pip to install the EB CLI.
+
+$ pip install awsebcli --upgrade --user
+
+Verify that the EB CLI installed correctly.
+
+$ eb --version
+EB CLI 3.14.8 
 
 >> Use pip to install the EB CLI.
 
