@@ -15,8 +15,13 @@ Setup:
 
     Install boto3
 
->> pip install boto3
+>> Use pip to install the EB CLI.
 
-    Install ansible addons for aws
+$ pip install awsebcli --upgrade --user
+
+Verify that the EB CLI installed correctly.
+
+$ eb --version
+EB CLI 3.14.8 
 
 >> ansible-galaxy collection install community.aws
