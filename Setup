@@ -1,0 +1,22 @@
+Setup:
+
+
+    Install aws cli, to communicate with AWS via command line
+    Install python if not installed
+    Create new virtualenv and activate
+
+>> mkdir ~/Envs
+>> python3 -m venv ~/Envs/env01
+>> source ~/Envs/env01/bin/activate
+
+    Install ansible
+
+>> pip install ansible
+
+    Install boto3
+
+>> pip install boto3
+
+    Install ansible addons for aws
+
+>> ansible-galaxy collection install community.aws
