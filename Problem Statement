@@ -1,4 +1,4 @@
-Create a DevOps infrastructure for an e-commerce application to run on high-availability mode..
+Create a DevOps infrastructure for an e-commerce application to run on high-availability mode.
 
 Background of the problem statement:
 A popular payment application, EasyPay where users add money to their wallet accounts, faces an issue in its payment success rate. The timeout that occurs with
